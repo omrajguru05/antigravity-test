@@ -1,0 +1,131 @@
+{
+    "kanban": {
+        "tasks": {
+            "task-1": {
+                "id": "task-1",
+                "title": "Q3 Financial Review",
+                "customer": "Reliance Industries",
+                "dueDate": "Today",
+                "priority": "High",
+                "completed": false
+            },
+            "task-2": {
+                "id": "task-2",
+                "title": "Update API Documentation",
+                "customer": "Tata Consultancy",
+                "dueDate": "Tomorrow",
+                "priority": "Medium",
+                "completed": false
+            },
+            "task-3": {
+                "id": "task-3",
+                "title": "Client Onboarding",
+                "customer": "Infosys Ltd",
+                "dueDate": "Nov 24",
+                "priority": "High",
+                "completed": false
+            },
+            "task-4": {
+                "id": "task-4",
+                "title": "Security Audit",
+                "customer": "Reliance Industries",
+                "dueDate": "Next Week",
+                "priority": "Low",
+                "completed": true
+            }
+        },
+        "columns": {
+            "col-1": {
+                "id": "col-1",
+                "title": "To Do",
+                "taskIds": [
+                    "task-1",
+                    "task-2"
+                ]
+            },
+            "col-2": {
+                "id": "col-2",
+                "title": "In Progress",
+                "taskIds": [
+                    "task-3"
+                ]
+            },
+            "col-3": {
+                "id": "col-3",
+                "title": "Review",
+                "taskIds": []
+            },
+            "col-4": {
+                "id": "col-4",
+                "title": "Done",
+                "taskIds": [
+                    "task-4"
+                ]
+            }
+        },
+        "columnOrder": [
+            "col-1",
+            "col-2",
+            "col-3",
+            "col-4"
+        ]
+    },
+    "customers": [
+        {
+            "id": "1",
+            "name": "Reliance Industries",
+            "contact": "Aarav Ambani",
+            "email": "aarav@reliance.com",
+            "status": "Active",
+            "ltv": "₹1,20,00,000",
+            "segment": "Enterprise",
+            "avatar": "https://ui-avatars.com/api/?name=Reliance+Ind&background=random",
+            "timeline": [
+                {
+                    "id": "t1",
+                    "type": "meeting",
+                    "title": "Q3 Strategy",
+                    "date": "2025-11-18T10:00:00",
+                    "notes": "Discussed digital expansion."
+                },
+                {
+                    "id": "t2",
+                    "type": "email",
+                    "title": "Invoice Sent",
+                    "date": "2025-11-15T14:30:00",
+                    "notes": "Invoice #1023 sent."
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Tata Consultancy",
+            "contact": "Diya Tata",
+            "email": "diya@tcs.com",
+            "status": "VIP",
+            "ltv": "₹50,00,000",
+            "segment": "Strategic",
+            "avatar": "https://ui-avatars.com/api/?name=Tata+Cons&background=random",
+            "timeline": [
+                {
+                    "id": "t3",
+                    "type": "call",
+                    "title": "Project Update",
+                    "date": "2025-11-19T09:00:00",
+                    "notes": "Urgent request for new features."
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Infosys Ltd",
+            "contact": "Rohan Murthy",
+            "email": "rohan@infosys.com",
+            "status": "Active",
+            "ltv": "₹8,50,000",
+            "segment": "Enterprise",
+            "avatar": "https://ui-avatars.com/api/?name=Infosys&background=random",
+            "timeline": []
+        }
+    ]
+}
