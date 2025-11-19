@@ -11,7 +11,6 @@ const CustomerOrbit: React.FC = () => {
         nextCustomer,
         prevCustomer,
         loadCustomers,
-        isLoading,
     } = useCustomerStore();
 
     // Ensure we always have a customer object

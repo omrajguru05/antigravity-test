@@ -17,7 +17,7 @@ import KanbanCard from './KanbanCard';
 import { useKanbanStore } from '../../../store/kanbanStore';
 
 const KanbanBoard: React.FC = () => {
-    const { columns, columnOrder, tasks, moveTask, addColumn, loadKanbanData, isLoading } = useKanbanStore();
+    const { columns, columnOrder, tasks, moveTask, addColumn, loadKanbanData } = useKanbanStore();
     const [activeId, setActiveId] = useState<string | null>(null);
 
     useEffect(() => {
